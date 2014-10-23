@@ -1,0 +1,68 @@
+body {
+    background-color: #333333; /* dark grey */
+    color: white;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Caudex', serif;
+    letter-spacing: -5px;
+    font-weight: 200;
+    font-size: 300%;
+    word-spacing: 9px;
+    margin-top: 0;
+}
+#welcome_div {
+	width: 500px;
+}
+
+#welcome_text {
+	font-style: italic;
+	display: inline-block;
+	position: absolute;
+	margin-left: 20px;
+  width: 370px;
+}
+
+#cartoon, #caption {
+	width: 400px;
+	text-align: center; 
+	margin-left: 20px;
+}
+
+img#cartoon {
+	display: block;
+}
+
+.result {
+    /*width: 500px;*/
+	margin-top: 50px;
+}
+
+button {
+  background-color: #666666; /* medium grey */
+  color: white;
+  border-radius: 10px;
+  border: solid 1px white;
+  padding: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #cc0;  /* yellow */
+    color: black;
+}
+
+a:link {
+    color: #cc0;
+}
+
+#thanks {
+    font-size: 85%;
+    font-style: italic;
+    margin-left: 110px;
+    position: fixed;
+    bottom: 10px;
+}
